@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@700&display=swap" rel="stylesheet">
+    <style>
+      body {
+        background: url("gym1.jpg");
+        margin: 0px;
+        padding: 0px;
+        background-repeat: no-repeat;
+        background-size: 1400px, 1200px;
+        font-family: 'Baloo Bhai 2', cursive;
+      }
+      .left {
+        color: white;
+        display: inline-block;
+        position: absolute;
+        left: 34px;
+        top: 18px;
+      }
+      .left img{
+          width:50px;
+          filter:invert(100%);
+      }
+      .left div{
+          color: rgb(251, 249, 253);
+          display:inline-block;
+      }
+      .mid {
+        color: white;
+        display: block;
+        width: 57%;
+        margin: 23px auto;
+        border-radius: 15px;
+        font-size: 23px;
+    }
+    .right {
+        display: inline-block;
+        color: white;
+        position: absolute;
+        right: 34px;
+        top: 23px;
+    }
+    .btn{
+        border:2px solid rgb(252, 253, 253);
+        padding: 4px 14px;
+        background-color: rgb(17, 16, 16);
+        color: white;
+        border-radius: 6px;
+        font-size: 13px;
+        cursor: pointer;
+        margin:8px 4px;
+    
+    }
+    .btn:hover{
+        background-color: gray;
+    }
+    .nav{
+        display: inline-block;
+    }
+    .nav li{
+        display: inline-block;
+        list-style: none;
+    }
+    .nav li a{
+        text-decoration: none;
+        color: white;
+        padding: 25px 20px;
+      }
+    .nav li a:hover, .nav li a:active{
+        text-decoration:underline;
+        color: rgb(233, 149, 149);
+    
+      }
+      .container{
+          padding: 30px 30px;
+          margin: 40px 120px;
+          border: 2px solid white;
+          display: inline-block;
+          background-color: black;
+          border-radius: 20px;
+          width: 500px;
+      }
+      .container h1{
+          color:  red;
+          text-align: center;
+        }
+      .fgrp input{
+          margin: 11px auto;
+          padding:2px 50px;
+          font-size: 15px;
+          font-family: 'Baloo Bhai 2', cursive;
+          display: block;
+          width: 200px;
+          border-radius: 8px;
+          text-align: center;
+       }
+       .container button{
+           text-align: center;
+           border-color: white;
+           width: 200px;
+           display: block;
+           margin:20px auto;
+       }
+      
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <div class="left">
+        <img src="logo1-removebg-preview.png">
+        <div>FITNESS STUDIO</div>
+      </div>
+      <div class="mid">
+        <ul class="nav">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">FITNESS CALCULATOR</a></li>
+          <li><a href="#">CONTACT US </a></li>
+        </ul>
+      </div>
+      <div class="right">
+        <button class="btn">
+             Contact Us Now
+        </button>
+        <button class="btn">
+             Email Us
+        </button>
+      </div>
+    </header>
+    <div class="container">
+        <h1> Join the best gym of the town</h1>
+        <form action="noaction.php">
+            <div class="fgrp">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="fgrp">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <div class="fgrp">
+                <input type="text" name="" placeholder="Enter your email id">
+            </div>
+            
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+  </body>
+</html>
